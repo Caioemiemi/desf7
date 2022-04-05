@@ -88,6 +88,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     padding: 56px 0px;
     gap: 24px;
 }
@@ -118,6 +119,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     gap: 64px;
     padding: 96px;
 }
@@ -192,7 +194,44 @@ nav {
     width: 90vw;
 }
 
+.vacancies-types {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px;
+    gap: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+}
 
+.vt h6 {
+    font-weight: 500, medium;
+    font-size: 20px;
+    color: black;
+    margin: 32px 0px;  
+}
 
+.vt div {
+    width: 75vw;
+    border: 1px solid #EAECF0;
+    box-sizing: border-box;
+    border-radius: 16px;
+    margin: 24px;
+    padding: 24px 24px 28px;
+}
 
+.vt div .vn {
+    font-weight: 500, medium;
+    font-style: normal;
+    font-size: 18px;
+    color: black;
+    
+}
+.vt div span {
+    margin-inline: 0px 25px ;
+    font-weight: 500, medium;
+    font-style: normal;
+    font-size: 0.80em;
+    color: var(--text-color);
+}
 
